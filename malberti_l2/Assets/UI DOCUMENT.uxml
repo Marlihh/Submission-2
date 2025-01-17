@@ -1,7 +1,6 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="project://database/Assets/MainStyle.uss..uss?fileID=7433441132597879392&amp;guid=3bd9afa684c6d424eba56a9e034c846a&amp;type=3#MainStyle.uss." />
     <ui:VisualElement name="VisualElement" class="FONDO" style="flex-grow: 1; width: 100%; height: 100%; align-items: center; justify-content: center; flex-direction: row; align-self: center;">
-        <ui:VisualElement name="separador1" style="flex-grow: 1; justify-content: flex-start; align-self: auto; width: 20%; height: 10%; flex-direction: column; background-color: rgba(10, 189, 184, 0); align-items: auto;" />
         <ui:VisualElement name="Index" style="flex-grow: 10; width: 40%; height: 100%; background-color: rgba(255, 255, 255, 0); justify-content: center; align-items: auto; align-self: center; flex-direction: column;">
             <ui:VisualElement name="Titulo" class="Titulo" style="flex-grow: 1; width: 100%; height: 50%; justify-content: flex-end; align-items: center; flex-shrink: 1;" />
             <ui:VisualElement name="cajabotones" style="flex-grow: 1; width: 70%; height: 60%; background-color: rgba(255, 139, 0, 0); justify-content: space-around; align-items: center; flex-shrink: 1; flex-direction: column; align-self: center;">
@@ -19,6 +18,5 @@
                 </ui:VisualElement>
             </ui:VisualElement>
         </ui:VisualElement>
-        <ui:VisualElement name="separador2" style="flex-grow: 1; width: 20%; height: 10%; background-color: rgba(197, 255, 121, 0); align-items: auto; justify-content: flex-start;" />
     </ui:VisualElement>
 </ui:UXML>
